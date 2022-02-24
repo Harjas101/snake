@@ -2,13 +2,13 @@ let connection;
 const { inputObject } = require("./constants");
 
 const handleUserInput = function (key) {
-     if (key === '\u0003') {
-     process.exit();
-   }
+  if (key === "\u0003") {
+    process.exit();
+  }
 
-   if (inputObject.hasOwnProperty(key)){
+  if (inputObject.hasOwnProperty(key)) {
     connection.write(inputObject[key]);
-   }
+  }
 };
 
 const setupInput = function (conn) {

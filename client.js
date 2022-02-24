@@ -15,17 +15,16 @@ const connect = function () {
     console.log("Successfully connected to the game server");
     conn.write("Name: HSA");
     //conn.write("Move: up")
-  //   conn.write("Move: up");
-  //  setTimeout(() =>{
-  //   conn.write("Move: left")
-  //  }, 500)
-  
-  //  setInterval(() => {
-  //   conn.write("Move: up")
-  //  }, 3000);
+    //   conn.write("Move: up");
+    //  setTimeout(() =>{
+    //   conn.write("Move: left")
+    //  }, 500)
 
-   });
-  
+    //  setInterval(() => {
+    //   conn.write("Move: up")
+    //  }, 3000);
+  });
+
   // conn.on("connect", () => {
   //   conn.write("Name: HSA")
   // });
